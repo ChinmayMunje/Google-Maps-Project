@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/maps" />
+
+    <Button
+        android:id="@+id/idBtnGoogleMapWithMarker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue_shade_1"
+        android:text="Google Map with Marker"
+        android:textAllCaps="false"
+        app:background="@drawable/button_back" />
+
+    <Button
+        android:id="@+id/idBtnGoogleMapWithPolyLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue_shade_1"
+        android:text="Google Map with Polyline"
+        android:textAllCaps="false"
+        app:background="@drawable/button_back" />
+
+    <Button
+        android:id="@+id/idBtnGoogleMapWithPolygon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue_shade_1"
+        android:text="Google Map With Polygon"
+        android:textAllCaps="false"
+        app:background="@drawable/button_back" />
+
+</LinearLayout>
