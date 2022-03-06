@@ -20,6 +20,6 @@
         android:elevation="5dp"
         android:iconifiedByDefault="false"
         android:queryHint="Search location"
-        android:visibility="visible" />
+        android:visibility="gone" />
 
 </RelativeLayout>
